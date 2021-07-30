@@ -1,0 +1,23 @@
+.inner_container {
+	display : grid;
+	grid-template-columns : repeat(1, 6fr 3fr);
+	grid-gap : $fivePixels;
+	grid-auto-rows : minmax($oneFifteeenPixels, auto);
+	width: 50%;
+	
+    @include breakpoint-up(large){    
+        margin:10vh auto;
+        grid-template-columns : repeat(1, 6fr 6fr);
+    }
+    a {
+        color: $fontColorLight;
+        padding: $fivePixels;
+        font-size: $fourteenPixels;
+        box-sizing: border-box;
+        border-radius: $onePixel;
+        text-decoration: none;
+        font-weight: $dark;
+        background-color: $tileColor;
+    }
+
+}

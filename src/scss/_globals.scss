@@ -1,0 +1,41 @@
+html { 
+    font-family: $fontFamilyInter;
+    font-size: 100%; //Rendering the 100% of the given font size.
+                     //If 90% It will display 10% smaller than the given size.
+    box-sizing: border-box; //Include the padding and border in the element's total width and height.
+}
+
+#outer-container {
+	width: auto;
+	height: $eightyVH;
+	padding-right: $twentyPixels;
+	padding-left: $twentyPixels;
+	/* margin-top: 100px; */
+}
+
+  #flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	overflow-y: hidden;
+	overflow-x: scroll;
+  }
+
+.flex-item {
+	flex-shrink: 0;
+	overflow-wrap: break-word;
+	width: 100%;
+	height: $eightyFiveVH;
+	padding: $tenPixels $tenPixels;
+	margin: 0px $twentyPixels;
+	column-fill: auto;
+  }
+
+::-webkit-scrollbar {
+display: none;
+}
+.content {
+	column-width: 100vw;
+	width: fit-content;
+
+  }

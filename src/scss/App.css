@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+html {
+  font-family: "Inter";
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#outer-container {
+  width: auto;
+  height: 80vh;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  /* margin-top: 100px; */
+}
+
+#flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.flex-item {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  overflow-wrap: break-word;
+  width: 100%;
+  height: 85vh;
+  padding: 0.625rem 0.625rem;
+  margin: 0px 1.25rem;
+  -webkit-column-fill: auto;
+          column-fill: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.content {
+  -webkit-column-width: 100vw;
+          column-width: 100vw;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.inner_container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (6fr 3fr)[1];
+      grid-template-columns: repeat(1, 6fr 3fr);
+  grid-gap: 0.3125rem;
+  grid-auto-rows: minmax(7.1875rem, auto);
+  width: 50%;
+}
+
+@media (min-width: 64em) {
+  .inner_container {
+    margin: 10vh auto;
+    -ms-grid-columns: (6fr 6fr)[1];
+        grid-template-columns: repeat(1, 6fr 6fr);
+  }
+}
+
+.inner_container a {
+  color: #283747;
+  padding: 0.3125rem;
+  font-size: 0.875rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.0625rem;
+  text-decoration: none;
+  font-weight: 500;
+  background-color: #dddddd;
+}
+
+.layout-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+}
+
+.layout-one-image-layout {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  color: #d6d6d6;
+  width: 50vw;
+}
+
+.layout-one-cover-heading {
+  font-size: 3.5625rem;
+  padding: 0.625rem 0.625rem;
+  text-align: center;
+}
+
+.layout-one-content-heading {
+  font-size: 3.5625rem;
+}
+
+.layout-one-content {
+  background-color: #dddddd;
+  padding: 0.625rem 0.625rem;
+  margin-right: 10px;
+  width: 60vw;
+}
+
+.layout-one-content-data {
+  text-align: center;
+  background-color: orange;
+}
+
+.layout-one .name-label {
+  font-weight: 500;
+  display: inline-block;
+  width: 12.5rem;
+}
+/*# sourceMappingURL=App.css.map */
