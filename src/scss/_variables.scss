@@ -1,6 +1,5 @@
 //Import font
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 
 //View heights
 $eightyVH:  80vh;
@@ -11,30 +10,48 @@ $onePixel: 0.0625rem;
 $twoPixels: 0.125rem;
 $fivePixels: 0.3125rem;
 $tenPixels: 0.625rem;
+$twelvePixels: 0.75rem;
 $fourteenPixels: 0.875rem;
 $sixteenPixels: 1rem;
+$eighteenPixels: 1.125rem;
 $twentyPixels: 1.25rem;
-$fiftySevenPixels: 3.5625rem;
-$eightyPixels: 5rem;
-$oneFifteeenPixels: 7.1875rem;
+$twentyTwoPixels: 1.375rem;
+$twentyEightPixels: 1.75rem;
+$thirtyTwoPixels: 2rem;
+$fourthEightPixels: 3rem;
+$sixtyTwoPixels: 3.875rem;
+$sixtyFourPixels: 4rem;
+$oneThirtyTwoPixels: 8.25rem;
+$oneSeventyPixels: 10.625rem;
 $twoHundredPixels: 12.5rem;
-$minusFourPixels: -0.25rem;
+$twoEighteenPixels: 13.625rem;
+$twoEightyFivePixels: 17.8125rem;
+$threeSixtyEightPixels: 23rem;
+$fourThirtyPixels: 26.875rem;
+$fourTwentyFourPixels: 26.5rem;
+$fourFourtyPixels: 27.5rem;
+$fourFiftyFourPixels: 28.375rem;
+$nineTwelvePixels: 57rem;
+$nineFourtyFourPixels: 59.000rem;
+$nineFiftyPixels: 59.375rem;
+
+//percentage
+$tenPercentage: 10%;
 
 //Font colors
 $fontFamilyInter: 'Inter';
-$fontColorLight: #283747;
+$fontColorLight: hsl(233, 26%, 24%);
 $fontColorDark: #d6d6d6;
+$backgroundColor: rgba(252, 252, 252, 1);
+$outerRectangleColor: rgba(248, 248, 248, 1);
+// $outerRectangleColor: rgb(214, 246, 255);
+$white: #ffffff;
 
 //Font weight
 $light:200;
 $medium:300;
 $strong:400;
-$dark: 500; 
+$dark: 500;
 
-//Box shadows
-$boxShadow: inset 0 $fiftySevenPixels $fiftySevenPixels $minusFourPixels rgb(12, 12, 12);
-//StartMenu
-$startMenuTemplateColumns: repeat(1, 6fr 3fr 4fr 3fr);
-$gridGap: $fivePixels; //5px
-$gridAutoRows: minmax($oneFifteeenPixels, auto);
-$tileColor: rgb(221, 221, 221);
+//Drop shadow
+$dropShadow: drop-shadow(0px 0px 2px hsla(0, 0%, 0%, 0.1));
