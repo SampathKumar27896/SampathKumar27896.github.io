@@ -1,0 +1,19 @@
+.contribution-list {
+    list-style-type: none;
+}
+button {
+  background-color: $outerRectangleColor;
+  margin: 0rem $sixteenPixels;
+  border: none;
+  font-family: Inter;
+  font-weight: $dark;
+  height: $thirtyTwoPixels;
+  width: $sixtyTwoPixels;
+  border-radius: $fivePixels;
+  filter: $dropShadow;
+}
+
+button:active {
+    position: relative;
+    top: $twoPixels;
+}

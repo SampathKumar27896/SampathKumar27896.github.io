@@ -1,14 +1,13 @@
 import React from 'react';
+import Home from '../Pages/Home';
+import Project from '../Pages/Project';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import StartMenu from '../StartMenu';
-import Education from '../Pages/Education';
-import Data from '../../Data/portfolio';
 const Routes = () => {
     return (
         <Router>
             <Switch>
-                <Route exact path="/"><StartMenu/></Route>
-                <Route exact path="/education"><Education data = {Data["education"]}/></Route>
+                <Route exact path="/"><Home/></Route>
+                <Route exact path="/project/:name" render={(props) => <Project {...props}/>}/>
             </Switch>
         </Router>
     )
