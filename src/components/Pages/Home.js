@@ -1,8 +1,4 @@
 import React from 'react';
-import {
-   
-    Link
-  } from "react-router-dom";
 const Home = (props) => {
     return (
         <div>
@@ -102,54 +98,54 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="layout-four-flex">
-                        <Link
+                        <a
                             className="item-1 layout-four-flex-item content-flex-items-content title-medium"
-                            to="/project/financialPortal"
+                            href="/project/financialPortal"
                         >
                             Student Finance Portal
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             className="item-1 layout-four-flex-item content-flex-items-content title-medium"
-                            to="/project/retail"
+                            href="/project/retail"
                         >
                             AI powered ESS & Retail solutions
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             className="item-1 layout-four-flex-item content-flex-items-content title-medium"
-                            to="/project/digitalHuman"
+                            href="/project/digitalHuman"
                         >
                             Digital Human
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             className="item-1 layout-four-flex-item content-flex-items-content title-medium"
-                            to="/project/digitalHundi"
+                            href="/project/digitalHundi"
                         >
                             Digital Hundi
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             className="item-1 layout-four-flex-item content-flex-items-content title-medium"
-                            to="/project/learningPathway"
+                            href="/project/learningPathway"
                         >
                             Learning Pathway
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             className="item-1 layout-four-flex-item content-flex-items-content title-medium"
-                            to="/project/feedbackSystem"
+                            href="/project/feedbackSystem"
                         >
                             Feedback system
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             className="item-1 layout-four-flex-item content-flex-items-content title-medium"
-                            to="/project/financialAid"
+                            href="/project/financialAid"
                         >
                             Financial Aid Portal
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             className="item-1 layout-four-flex-item content-flex-items-content title-medium"
-                            to="/project/taskTracker"
+                            href="/project/taskTracker"
                         >
                             Task management
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>
